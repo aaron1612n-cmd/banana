@@ -3,7 +3,6 @@
 A collection of freely licensed banana images: bananas, plantains, banana plants, flowers, leaves and banana dishes.
 
 - `images/<topic>/` holds the images, sorted into 157 folders such as `banana-bread`, `banana-tree`, `plantains` and `banana-split`, plus folders for banana in other languages (`banane`, `pisang`, `banana-japanese`, `xiangjiao-chinese`, ...). Files are named after their titles, for example `banana-bread/one-bowl-banana-bread-with-cacao-nibs-3.jpg`.
-- `images/nsfw/` holds a few banana images that aren't safe for work, such as an avatar ad with bananas over bare skin and a banana-flavored condom packet. They're kept apart so the other folders stay family-friendly.
 - `CREDITS.csv` lists the title, creator, license and source page for every image.
 
 Every image is public domain or under a Creative Commons license. Some licenses are NonCommercial (NC) or NoDerivatives (ND), and most require attribution. Check `CREDITS.csv` before you reuse an image.
