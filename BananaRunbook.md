@@ -31,6 +31,8 @@ Fill `aaron1612n-cmd/banana` with as many banana images as possible. Only public
 - The repo is near GitHub's soft 5 GB limit, so resize new batches (`RESIZE=800`).
 - Other possible sources: more Openverse queries (20 requests/min, ~200/day anonymous), GBIF, Smithsonian Open Access. The Met API returned 410.
 
+- Why every session re-clones: containers are ephemeral and wiped at session end, so the environment clones fresh each time. History bloat (>5 GB) makes it slow. Fix options: history purge (needs approval) or shallow/sparse clone.
+
 ## How to resume
 1. Unpack the state into a scratch folder S: `tar -xzf tools/state/state.tar.gz -C $S`, then `cp tools/scripts/*.py $S/scripts/`.
    - The archive holds `all.dl.json` (download status and repo path for every item), the per-source manifests, and the CLIP score files.
